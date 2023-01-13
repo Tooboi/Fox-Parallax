@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Fox Parallax</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="banner">
-        <div class="container">
-            <div id="scene">
-                <div class="layer" data-depth="-0.25"><img src="./images/backTree.png" alt=""></div>
+      <div class="container">
+        <div id="scene">
+          <!-- <div class="layer" data-depth="-0.25"><img src="./images/backTree.png" alt=""></div>
                 <div class="layer" data-depth="-0.2"><img src="./images/rightTreeFront.png" alt=""></div>
-                <div class="layer" data-depth="-0.1"><img src="./images/backGrass.png" alt=""></div>
-                <!-- <div class="layer" data-depth="0.05"><img src="./images/Name.png" alt=""></div> -->
-                <div class="layer" data-depth="0.1"><img src="./images/fox.png" alt=""></div>
+                <div class="layer" data-depth="-0.1"><img src="./images/backGrass.png" alt=""></div> -->
+
+          <!-- <div class="layer" data-depth="0.1"><img src="./images/fox.png" alt=""></div>
                 <div class="layer" data-depth="0.15"><img src="./images/frontGrass.png" alt=""></div>
                 <div class="layer" data-depth="0.4"><img src="./images/leftForegroundTree.png" alt=""></div>
                 <div class="layer" data-depth="0.8"><img src="./images/butterflyBack.png" alt=""></div>
-                <div class="layer" data-depth="1"><img src="./images/butterflyFront.png" alt=""></div>
-            </div>
+                <div class="layer" data-depth="1"><img src="./images/butterflyFront.png" alt=""></div> -->
+          <!-- ? gems below -->
+          <div class="layer" data-depth="-0.25"><img src="./images/Gems/gemBackPost.png" alt="" /></div>
+          <div class="layer" data-depth="-0.05"><img src="./images/Name.png" alt="" /></div>
+          <div class="layer" data-depth="0.15"><img src="./images/Gems/gemMidPost.png" alt="" /></div>
+
+          <div class="layer" data-depth="0.4"><img src="./images/Gems/gemFrontPost.png" alt="" /></div>
         </div>
-        
+      </div>
     </section>
-    <!-- <h2 class="text">Projects</h2> -->
+    <div class="nav">
+      <h2 class="text"><a href="#">Projects</a></h2>
+      <h2 class="text"><a href="#">Resume</a></h2>
+      <h2 class="text"><a href="#">About</a></h2>
+    </div>
+
     <script src="./js/parallax.js"></script>
     <script src="./js/lax.js"></script>
-</body>
+  </body>
 </html>
